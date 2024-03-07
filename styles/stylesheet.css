@@ -44,8 +44,9 @@ p {
     font-size: 1rem;
 }
 
-h1 {
+.home {
     font-size: 2rem;
+    color: white;
 }
 
 h3 {
