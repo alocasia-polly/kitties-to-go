@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: aquamarine;
+    background-image: url("../assets/lesson04-mock2-banner-image.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 3rem 0 0 3rem;
+    height: 25vh;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    height: 5vh;
+}
+
+.head-nav {
+    background-color: lightslategray;
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-decoration-color: none;
+}
+
+p, 
+a, 
+h1, 
+h3,
+h4, 
+h5,
+dropquote {
+    font-family: "Open Sans";
+}
+
+a {
+    text-decoration: none;
+}
+
+a,
+p {
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h3 {
+    color: #0b749e;
+}
+
+h5 {
+    font-size: 1.3rem;
+}
+
+dropquote {
+    margin: 2rem 0 2rem 0;
+    color: #0b749e;
+    font-size: 1.2rem;
+}
+
+.headfoot,
+li {
+    color: white;
+    margin-left: 1rem;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 3rem;
+}
+
+article {
+    max-width: 50vw;
+}
+
+aside {
+    max-width: 20vw;
+    margin: 0 2rem 0 2rem;
+}
+
+img {
+    display: block;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    flex-direction: row;
+    list-style-type: none;
+}
+
+footer {
+    background-color: aquamarine;
+    background-image: url("../assets/lesson04-mock4-footer-image.jpg");
+    padding: 2rem;
+}
+
+.center {
+    margin: auto;
+    max-width: fit-content;
+}
