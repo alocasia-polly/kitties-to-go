@@ -112,6 +112,15 @@ footer {
     padding: 2rem;
 }
 
+#foot-nav {
+    padding: 0;
+}
+
+.foot-link {
+    padding: .75rem;
+    margin: .5rem;
+}
+
 .center {
     margin: auto;
     max-width: fit-content;
