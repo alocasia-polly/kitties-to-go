@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    background-color: aquamarine;
+    background-color: rgb(14, 106, 122);
     background-image: url("../assets/lesson04-mock2-banner-image.jpg");
     background-size: cover;
     margin: 0;
@@ -22,6 +22,17 @@ nav {
     margin: 0;
     padding: 0;
     color: black;
+}
+
+.head-nav-link {
+    padding: .75rem;
+    margin: .75rem;
+    color: black;
+}
+
+.head-nav-link:hover {
+    background-color: grey;
+    color: white;
 }
 
 p, 
