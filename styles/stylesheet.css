@@ -109,6 +109,7 @@ li {
 footer {
     background-color: rgb(0, 96, 134);
     background-image: url("../assets/lesson04-mock4-footer-image.jpg");
+    background-size: cover;
     padding: 2rem;
 }
 
