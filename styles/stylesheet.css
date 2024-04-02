@@ -107,3 +107,13 @@ footer {
     margin: auto;
     max-width: fit-content;
 }
+
+.hidden {
+    position: relative;
+    left: -10000px;
+    top: auto;
+}
+
+.hidden:focus {
+    left: 0;
+}
