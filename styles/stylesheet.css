@@ -3,9 +3,11 @@ body {
 }
 
 header {
+    width: 100%;
     background-color: rgb(14, 106, 122);
     background-image: url("../assets/lesson04-mock2-banner-image.jpg");
     background-size: cover;
+    background-position: center;
     margin: 0;
     padding: 0 0 2rem 5rem;
 }
