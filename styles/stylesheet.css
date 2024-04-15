@@ -158,6 +158,7 @@ footer {
     }
 
     aside {
+        display: none;
         max-width: 100%;
         margin: 0;
     }
