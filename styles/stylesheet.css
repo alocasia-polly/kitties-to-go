@@ -10,13 +10,13 @@ header {
     background-size: cover;
     background-position: center;
     margin: 0;
-    padding: 0 0 2rem 5rem;
+    padding: 0 0 2rem 3rem;
 }
 
 nav {
     display: flex;
     align-items: center;
-    height: 5vh;
+    height: 3rem;
     max-width: 100%;
 }
 
@@ -98,18 +98,18 @@ aside {
 
 img {
     max-width: 100%;
-    height: auto;
     display: block;
 }
 
 ul {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 li {
-    flex-direction: row;
+    max-width: 100%;
     list-style-type: none;
-    margin-left: 0.5rem;
 }
 
 footer {
@@ -120,6 +120,10 @@ footer {
     background-size: cover;
     background-position: top;
     padding: 2rem;
+}
+
+#foot-logo {
+    max-width: 100%;
 }
 
 #foot-nav {
@@ -164,7 +168,22 @@ footer {
     }
 }
 
+@media screen and (max-width: 680px) {
+
+    nav {
+        height: 4rem;
+    }
+}
+
+@media screen and (max-width: 415px) {
+
+    nav {
+        height: 5rem;
+    }
+}
+
 @media print {
+
     body img,
     header,
     nav,
