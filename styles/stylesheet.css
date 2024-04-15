@@ -150,7 +150,10 @@ footer {
     
     main {
         display: block;
-        border: 1px red solid;
+    }
+
+    article {
+        max-width: 100%;
     }
 
     aside {
